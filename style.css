@@ -1,0 +1,210 @@
+/**{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color:#ECE5DD;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 400px;
+    font-family: sans-serif;
+  }
+  .container{
+    background-color: white;
+    display: flex;
+    width: 500pxpx;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-block-start: 400px;
+    border: 1px solid black;
+    margin-inline-start: 300px;
+    margin-inline-end: 100px;
+    padding: 80px;
+  }
+  img{
+    height: 480px;
+    width: 500px;
+    background-color: #F2F2F2;
+  }
+  h1{
+    margin-block-start: -70px;
+    margin-block-end: 5px;
+    color: #252C46;
+    font-size: 50px;
+  }
+  ol{
+    margin-inline-start: 5px;
+    margin-block-end: 40px;
+    margin-block-start: 30px;
+    color: rgb(90, 86, 86);
+    font-size: 1.5em;
+  }
+  .app{
+    display: flex;
+    margin-block-start: 400px;
+    margin-block-end: -350px;
+    margin-inline-start: 200px;
+  }
+  .logo{
+    border: none;
+    mix-blend-mode: multiply;
+    background: none;
+  }
+  .logo span{
+    color: #25D366;
+    font-size: 50px;
+      font-weight: bold;
+  }
+  .join{
+    background: #25D366;
+    width: 280px;
+    height: 70px;
+      padding: 10px 20px;
+    border-radius: 40px;
+    margin-inline-start: 800px;
+    font-size: 30px;
+  }
+  a{
+    border-bottom: 1px solid #25D366;
+    color: rgb(90, 86, 86);
+    font-size: 1.5em;
+  }
+  p{
+    font-size: 1.5em;
+    color: rgb(90, 86, 86);
+    margin-block-start: 60px;
+    margin-inline-end: 20px;
+      
+  }
+  .checkbox {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: gray;
+      
+  }
+  
+  .checkbox input {
+    margin-right: 5px;
+  }
+    
+  <div class="container">
+    <div>
+    <h1>Log into WhatsApp Web</h1>
+      <p>Message privately with friends and family using Whatsapp in your<br>browser</p><br>
+      <ol>
+        <li>Open Whatsapp on your phone</li><br>
+        <br>
+        <li>Tap Menu <button><i class="ri-more-2-line"></i></button>on androind,or settings<button><i class="ri-settings-3-line"></i></button>on iPhone</li><br>
+        <br>
+        <li>Tap Linked devices and then Link a device</li><br>
+        <br>
+        <li>Point your phone at this screen to scan the QR code</li><br>
+      </ol>
+      <br>
+      <a>Need help getting started?</a><i class="ri-arrow-right-up-line"></i><br>
+      <br>
+      <a>Log in with phone number</a><i class="ri-arrow-right-s-line"></i>
+  </div>
+  <div>
+    <img src="qr.jpg">
+      <br>
+        <div class="checkbox">
+                <input type="checkbox" id="stay-logged-in" checked>
+                <label for="stay-logged-in">Stay logged in on this browser</label>
+            </div>
+    </div>
+</div>*/
+
+  *{
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color:#ECE5DD;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+      font-family: sans-serif;
+      margin-block-start: 20px;
+    }
+    .app{
+      display: flex;
+      margin-inline-start: 20px;
+      margin-block-start: 30px; 
+    }
+  .logo{
+    border: none;
+    mix-blend-mode: multiply;
+    background: none;
+    }
+  .logo span{
+    color: #25D366;
+    font-size: 46px;
+    font-weight: bold;
+  }
+.download{
+  background: #25D366;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  margin-inline-start: 65%;
+  margin-block-start: 20px;
+  font-size: 26px;
+  float: inline-end;
+}
+.container{
+  background-color: white;
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  border-radius: 40px;
+  margin-block-start: 75px;
+  border: 2px solid black;
+  margin-inline-start: 350px;
+  margin-inline-end: 100px;
+  padding: 80px;
+}
+.container .steps{
+  display: flexbox;
+  margin-block-start: -20px;
+  margin-inline-start: 10px;
+  color: #252C46;
+}
+.steps{
+  display: flexbox;
+  color: rgb(90, 86, 86);
+  font-size: 18px;
+}
+.steps ol{
+ margin-left: 22px;
+ padding-left: 10px;
+}
+img{
+  display: flex;
+  height: 270px;
+  width: 270px;
+  background-color: #F2F2F2;
+}
+a{
+  border-bottom: 2px solid #25D366;
+  color: rgb(90, 86, 86);
+  font-size: 18px;
+}
+.checkbox{
+  display: flex;
+  color: rgb(173, 166, 166);
+  font-size: 1em;
+  padding-bottom: 15px;
+}
+.ri-check-line{
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 3px;
+}
